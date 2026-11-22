@@ -1,0 +1,8 @@
+# Ne jamais publier
+_jury_ne_pas_publier/
+_sauvegarde/
+_a_supprimer/
+
+# Fichiers système / éditeur
+.DS_Store
+*.code-workspace

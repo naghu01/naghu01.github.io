@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Najeeb GHULAM – Portfolio BTS SIO SLAM</title>
+    <meta
+      name="description"
+      content="Portfolio de Najeeb GHULAM, étudiant en BTS SIO option SLAM à l'École IRIS (Paris) : réalisations professionnelles E5 / E6, stages, compétences et veille technologique."
+    />
+    <link rel="icon" href="./assets/profile-pic.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <!-- ===== NAVIGATION ===== -->
+    <header class="site-header">
+      <nav class="navbar" aria-label="Navigation principale">
+        <a href="#profil" class="logo">Najeeb GHULAM</a>
+
+        <button
+          class="hamburger-icon"
+          id="hamburger-icon"
+          aria-label="Ouvrir le menu"
+          aria-expanded="false"
+          aria-controls="menu-links"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-links" id="menu-links">
+          <li><a href="#about">Profil</a></li>
+          <li><a href="#competences">Compétences</a></li>
+          <li><a href="#parcours">Parcours</a></li>
+          <li><a href="#e5">E5</a></li>
+          <li><a href="#e6">E6</a></li>
+          <li><a href="#veille">Veille</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <a href="./assets/CV_NAJEEB_GHULAM.pdf" target="_blank" rel="noopener" class="nav-cv">CV</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ===== ACCUEIL ===== -->
+      <section id="profil" class="hero">
+        <div class="section__pic-container hero-pic">
+          <img src="./assets/profile-pic.png" alt="Illustration de Najeeb GHULAM" width="400" height="400" />
+        </div>
+        <div class="section__text">
+          <p class="section__text__p1">Bonjour, je suis</p>
+          <h1 class="title">Najeeb GHULAM</h1>
+          <p class="section__text__p2">
+            Étudiant en BTS SIO option SLAM<br />
+            à l'École IRIS – Paris
+          </p>
+          <p class="hero-tagline">Développement d'applications · Data · Cybersécurité</p>
+          <div class="btn-container">
+            <a class="btn btn-color-2" href="./assets/CV_NAJEEB_GHULAM.pdf" target="_blank" rel="noopener">Mon CV</a>
+            <a class="btn btn-color-1" href="#contact">Me contacter</a>
+          </div>
+          <div id="socials-container">
+            <a href="https://www.linkedin.com/in/najeeb-ghulam/" target="_blank" rel="noopener noreferrer">
+              <img src="./assets/linkedin.png" alt="Mon profil LinkedIn" class="icon" />
+            </a>
+            <a href="https://github.com/naghu01" target="_blank" rel="noopener noreferrer">
+              <img src="./assets/github.png" alt="Mon profil GitHub" class="icon" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== À PROPOS ===== -->
+      <section id="about">
+        <p class="section__text__p1">En savoir plus</p>
+        <h2 class="title">Qui suis-je ?</h2>
+        <div class="about-layout">
+          <div class="about-pic-container">
+            <img src="./assets/about.jpg" alt="Photo de Najeeb GHULAM" class="about-pic" width="900" height="1200" loading="lazy" />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img src="./assets/experience.png" alt="" class="icon" aria-hidden="true" />
+                <h3>Expérience</h3>
+                <p>Stages Data &amp; Automatisation – <em>IKEA</em> (2026)<br />Analyse de données – <em>Maison Granola</em> (2023)</p>
+              </div>
+              <div class="details-container">
+                <img src="./assets/education.png" alt="" class="icon" aria-hidden="true" />
+                <h3>Formation</h3>
+                <p>BTS SIO SLAM – <em>École IRIS</em><br />Licence Biologie – <em>Université Paris-Saclay</em><br />2 certifications <em>Cisco NetAcad</em><!-- À COMPLÉTER : noms des certifs --></p>
+              </div>
+            </div>
+            <div class="text-container">
+              <p>
+                Étudiant en BTS SIO option SLAM, je m'intéresse particulièrement au développement
+                d'applications et à l'exploitation des données : comprendre comment un système
+                fonctionne, et comment la donnée peut aider à prendre de meilleures décisions.
+              </p>
+              <p>
+                En stage chez IKEA, j'automatise le traitement de données internes (Excel, VBA) et
+                je construis des indicateurs de suivi pour les équipes opérationnelles.
+              </p>
+              <p>
+                Je m'intéresse aussi à la <strong>cybersécurité</strong> : je suis les attaques qui
+                visent le retail et le luxe, et j'ai réalisé l'audit de sécurité et RGPD du site de mon école.
+              </p>
+            </div>
+          </div>
+        </div>
+        <a href="#competences" class="arrow" aria-label="Section suivante : compétences">
+          <img src="./assets/arrow.png" alt="" class="icon" />
+        </a>
+      </section>
+
+      <!-- ===== COMPÉTENCES ===== -->
+      <section id="competences">
+        <p class="section__text__p1">Découvrez mes</p>
+        <h2 class="title">Compétences techniques</h2>
+        <div class="skills-grid">
+          <div class="details-container">
+            <h3 class="experience-sub-title">Développement</h3>
+            <div class="article-container">
+              <article><img src="./assets/checkmark.png" alt="" class="icon" aria-hidden="true" /><div><h4>Java</h4><p>Intermédiaire</p></div></article>
+              <article><img src="./assets/checkmark.png" alt="" class="icon" aria-hidden="true" /><div><h4>PHP</h4><p>Notions</p></div></article>
+              <article><img src="./assets/checkmark.png" alt="" class="icon" aria-hidden="true" /><div><h4>C</h4><p>Intermédiaire</p></div></article>
+              <article><img src="./assets/checkmark.png" alt="" class="icon" aria-hidden="true" /><div><h4>HTML</h4><p>Avancé</p></div></article>
+              <article><img src="./assets/checkmark.png" alt="" class="icon" aria-hidden="true" /><div><h4>CSS</h4><p>Avancé</p></div></article>
+              <article><img src="./assets/checkmark.png" alt="" class="icon" aria-hidden="true" /><div><h4>JavaScript</h4><p>Notions</p></div></article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h3 class="experience-sub-title">Données &amp; systèmes</h3>
+            <div class="article-container">
+              <article><img src="./assets/checkmark.png" alt="" class="icon" aria-hidden="true" /><div><h4>SQL</h4><p>Intermédiaire</p></div></article>
+              <article><img src="./assets/checkmark.png" alt="" class="icon" aria-hidden="true" /><div><h4>Modélisation BDD</h4><p>Intermédiaire</p></div></article>
+              <article><img src="./assets/checkmark.png" alt="" class="icon" aria-hidden="true" /><div><h4>Excel</h4><p>Intermédiaire</p></div></article>
+              <article><img src="./assets/checkmark.png" alt="" class="icon" aria-hidden="true" /><div><h4>Power BI</h4><p>Intermédiaire</p></div></article>
+              <article><img src="./assets/checkmark.png" alt="" class="icon" aria-hidden="true" /><div><h4>Linux / Shell</h4><p>Intermédiaire</p></div></article>
+              <article><img src="./assets/checkmark.png" alt="" class="icon" aria-hidden="true" /><div><h4>Windows Server</h4><p>Notions</p></div></article>
+              <article><img src="./assets/checkmark.png" alt="" class="icon" aria-hidden="true" /><div><h4>Réseaux</h4><p>Notions (VLAN, TCP/IP)</p></div></article>
+              <article><img src="./assets/checkmark.png" alt="" class="icon" aria-hidden="true" /><div><h4>Figma / Canva</h4><p>Intermédiaire</p></div></article>
+            </div>
+          </div>
+        </div>
+        <a href="#parcours" class="arrow" aria-label="Section suivante : parcours">
+          <img src="./assets/arrow.png" alt="" class="icon" />
+        </a>
+      </section>
+
+      <!-- ===== PARCOURS / STAGES ===== -->
+      <section id="parcours">
+        <p class="section__text__p1">Stages &amp; expérience</p>
+        <h2 class="title">Parcours professionnel</h2>
+        <ol class="timeline">
+          <li class="timeline-item">
+            <p class="timeline-meta">Stage BTS 2e année · IKEA, service BNOM · nov. – déc. 2026</p>
+            <h3>Automatisation et qualité des données</h3>
+            <p>
+              Développement d'une macro VBA qui rapproche deux extractions d'un système interne,
+              nettoie les données et signale doublons et références manquantes (voir réalisation E6).
+            </p>
+          </li>
+          <li class="timeline-item">
+            <p class="timeline-meta">Stage BTS 1re année · IKEA, service BNOM · juin – juillet 2026</p>
+            <h3>Data &amp; pilotage d'indicateurs</h3>
+            <p>Construction et suivi de KPI, exploitation de données pour le suivi budgétaire et opérationnel.</p>
+          </li>
+          <li class="timeline-item">
+            <p class="timeline-meta">Stage · Maison Granola · décembre 2023</p>
+            <h3>Analyse de données commerciales</h3>
+            <p>Analyse de données pour la veille concurrentielle et le suivi des performances commerciales.</p>
+          </li>
+          <li class="timeline-item">
+            <p class="timeline-meta">Depuis juillet 2022 · IKEA</p>
+            <h3>Vendeur-Concepteur Cuisine</h3>
+            <p>Conception de projets sur logiciel 3D et suivi des indicateurs de vente.</p>
+          </li>
+        </ol>
+        <!-- À COMPLÉTER : dépose tes attestations de stage dans assets/livrables/ puis décommente
+        <div class="btn-container section-actions" style="margin-top:2.5rem">
+          <a class="btn btn-color-2" href="./assets/livrables/attestation_IKEA_2026-1.pdf" target="_blank" rel="noopener">Attestation stage 1</a>
+          <a class="btn btn-color-2" href="./assets/livrables/attestation_IKEA_2026-2.pdf" target="_blank" rel="noopener">Attestation stage 2</a>
+        </div>
+        -->
+        <a href="#e5" class="arrow" aria-label="Section suivante : épreuve E5">
+          <img src="./assets/arrow.png" alt="" class="icon" />
+        </a>
+      </section>
+
+      <!-- ===== ÉPREUVE E5 ===== -->
+      <section id="e5">
+        <p class="section__text__p1">Épreuve E5</p>
+        <h2 class="title">Support et mise à disposition<br />de services informatiques</h2>
+        <p class="section-intro">
+          Réalisations professionnelles présentées à l'épreuve E5, en formation et en entreprise.
+        </p>
+        <!-- À COMPLÉTER : dépose ton tableau de synthèse dans assets/livrables/ puis décommente le bouton
+        <div class="btn-container section-actions">
+          <a class="btn btn-color-1 btn-wide" href="./assets/livrables/tableau-de-synthese.pdf" target="_blank" rel="noopener">Tableau de synthèse</a>
+        </div>
+        -->
+        <div class="project-grid">
+          <article class="project-card">
+            <p class="project-tag">Réalisation · École IRIS</p>
+            <h3 class="project-title">Serveur GLPI 11 sous Debian</h3>
+            <p>
+              Installation d'un serveur GLPI sur une VM Debian 12 (VMware Fusion) avec une pile
+              LAMP : Apache, MariaDB et PHP 8.2. Accès depuis un poste client, puis création et
+              traitement de tickets d'incident.
+            </p>
+            <ul class="tech-list">
+              <li>Debian 12</li><li>VMware Fusion</li><li>Apache</li><li>MariaDB</li><li>PHP</li><li>GLPI</li>
+            </ul>
+            <div class="btn-container">
+              <a class="btn btn-color-2 project-btn" href="./assets/livrables/E5_GLPI_procedure_installation.pdf" target="_blank" rel="noopener">Procédure (PDF)</a>
+              <!-- À COMPLÉTER : captures des tickets traités
+              <a class="btn btn-color-2 project-btn" href="./assets/livrables/E5_GLPI_tickets.pdf" target="_blank" rel="noopener">Tickets traités</a>
+              -->
+            </div>
+          </article>
+          <article class="project-card">
+            <p class="project-tag">Réalisation · École IRIS · février 2026</p>
+            <h3 class="project-title">Audit de sécurité et RGPD d'un site web</h3>
+            <p>
+              Étude critique du site ecoleiris.fr (Drupal) : performance et accessibilité avec
+              Lighthouse, identification des technologies avec Wappalyzer, scan réseau non
+              intrusif avec Nmap et analyse de conformité RGPD (cookies, formulaires, mentions
+              légales). Analyse des risques et recommandations priorisées.
+            </p>
+            <ul class="tech-list">
+              <li>Nmap</li><li>Lighthouse</li><li>Wappalyzer</li><li>RGPD</li><li>Analyse de risques</li>
+            </ul>
+            <div class="btn-container">
+              <a class="btn btn-color-2 project-btn" href="./assets/livrables/E5_Audit_securite_ecoleiris_public.pdf" target="_blank" rel="noopener">Rapport (PDF)</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <p class="project-tag">Projet de groupe · École IRIS</p>
+            <h3 class="project-title">Site web de la promotion</h3>
+            <p>
+              Site WordPress avec pages personnalisées (groupe, entreprises, cours, contact,
+              espace membres). Achat du nom de domaine node-iris.fr et de l'hébergement IONOS.
+              Mon rôle : charte graphique et maquette du site.
+            </p>
+            <ul class="tech-list">
+              <li>WordPress</li><li>IONOS</li><li>Figma</li><li>Canva</li>
+            </ul>
+            <!-- À COMPLÉTER : décommente quand le site est en ligne
+            <div class="btn-container">
+              <a class="btn btn-color-2 project-btn" href="https://node-iris.fr" target="_blank" rel="noopener">Voir le site</a>
+            </div>
+            -->
+          </article>
+          <article class="project-card">
+            <p class="project-tag">Projet personnel</p>
+            <h3 class="project-title">Portfolio professionnel</h3>
+            <p>
+              Conception et mise en ligne de ce portfolio : site responsive en HTML, CSS et
+              JavaScript, sans framework.
+            </p>
+            <ul class="tech-list">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li>
+            </ul>
+            <div class="btn-container">
+              <!-- À COMPLÉTER : remplace par l'URL du dépôt du portfolio -->
+              <a class="btn btn-color-2 project-btn" href="https://github.com/naghu01" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+        </div>
+        <a href="#e6" class="arrow" aria-label="Section suivante : épreuve E6">
+          <img src="./assets/arrow.png" alt="" class="icon" />
+        </a>
+      </section>
+
+      <!-- ===== ÉPREUVE E6 ===== -->
+      <section id="e6">
+        <p class="section__text__p1">Épreuve E6 – option SLAM</p>
+        <h2 class="title">Conception et développement<br />d'applications</h2>
+        <p class="section-intro">
+          Réalisations mobilisant la conception, le développement et l'exploitation de bases de données.
+        </p>
+        <div class="project-grid">
+          <article class="project-card">
+            <p class="project-tag">Projet E6 · École IRIS</p>
+            <h3 class="project-title">Stud'Home</h3>
+            <p>
+              Application web développée en équipe pour l'épreuve E6.
+              Mon rôle : conception et développement du front-end.
+            </p>
+            <!-- À COMPLÉTER : technologies utilisées (ex. PHP, MySQL…) -->
+            <ul class="tech-list">
+              <li>Front-end</li><li>Projet d'équipe</li>
+            </ul>
+            <!-- À COMPLÉTER : lien vers le dépôt et/ou la documentation
+            <div class="btn-container">
+              <a class="btn btn-color-2 project-btn" href="https://github.com/naghu01/NOM-DU-DEPOT" target="_blank" rel="noopener">GitHub</a>
+            </div>
+            -->
+          </article>
+          <article class="project-card">
+            <p class="project-tag">Réalisation en entreprise · Stage IKEA</p>
+            <h3 class="project-title">Automatisation d'un rapprochement de données</h3>
+            <p>
+              Macro VBA qui fusionne deux extractions d'un système interne via la référence
+              article, nettoie les données (espaces, zéros perdus) et signale les doublons et les
+              articles manquants. Elle remplace une opération manuelle répétitive.
+            </p>
+            <ul class="tech-list">
+              <li>VBA</li><li>Excel</li><li>Qualité des données</li>
+            </ul>
+            <p style="font-size:0.85rem">Livrables présentés avec des données fictives (confidentialité).</p>
+            <!-- À COMPLÉTER : dépose le guide PDF et le classeur de démo dans assets/livrables/
+            <div class="btn-container">
+              <a class="btn btn-color-2 project-btn" href="./assets/livrables/E6_IKEA_guide_utilisateur.pdf" target="_blank" rel="noopener">Guide (PDF)</a>
+              <a class="btn btn-color-2 project-btn" href="./assets/livrables/E6_IKEA_demo.xlsm">Classeur de démo</a>
+            </div>
+            -->
+          </article>
+          <article class="project-card">
+            <p class="project-tag">Projet de groupe · École IRIS</p>
+            <h3 class="project-title">Jeu Snake en C</h3>
+            <p>
+              Jeu Snake en console Windows, développé à quatre. Mes missions : le mode
+              « 3 pommes », la sauvegarde et le chargement de partie dans un fichier, et la
+              présentation du projet.
+            </p>
+            <ul class="tech-list">
+              <li>C</li><li>Gestion de fichiers</li><li>Équipe de 4</li>
+            </ul>
+            <!-- À COMPLÉTER : exporte la présentation en PDF dans assets/livrables/ et ajoute le dépôt
+            <div class="btn-container">
+              <a class="btn btn-color-2 project-btn" href="./assets/livrables/Snake_presentation.pdf" target="_blank" rel="noopener">Présentation (PDF)</a>
+              <a class="btn btn-color-2 project-btn" href="https://github.com/naghu01/NOM-DU-DEPOT" target="_blank" rel="noopener">GitHub</a>
+            </div>
+            -->
+          </article>
+          <article class="project-card">
+            <p class="project-tag">Formation · École IRIS</p>
+            <h3 class="project-title">Base de données SQL</h3>
+            <p>
+              Conception (MCD → MLD), création du schéma, contraintes d'intégrité et requêtes
+              d'exploitation (jointures, agrégations, sous-requêtes).
+            </p>
+            <ul class="tech-list">
+              <li>MySQL</li><li>SQL</li><li>Merise</li>
+            </ul>
+            <!-- À COMPLÉTER : lien vers le dépôt
+            <div class="btn-container">
+              <a class="btn btn-color-2 project-btn" href="https://github.com/naghu01/NOM-DU-DEPOT" target="_blank" rel="noopener">GitHub</a>
+            </div>
+            -->
+          </article>
+          <article class="project-card">
+            <p class="project-tag">Formation · École IRIS</p>
+            <h3 class="project-title">Application Java (console)</h3>
+            <p>
+              Développement d'une application en console en Java : programmation orientée
+              objet, structuration du code.
+            </p>
+            <ul class="tech-list">
+              <li>Java</li>
+            </ul>
+            <!-- À COMPLÉTER : lien vers le dépôt
+            <div class="btn-container">
+              <a class="btn btn-color-2 project-btn" href="https://github.com/naghu01/NOM-DU-DEPOT" target="_blank" rel="noopener">GitHub</a>
+            </div>
+            -->
+          </article>
+        </div>
+        <a href="#veille" class="arrow" aria-label="Section suivante : veille technologique">
+          <img src="./assets/arrow.png" alt="" class="icon" />
+        </a>
+      </section>
+
+      <!-- ===== VEILLE TECHNOLOGIQUE ===== -->
+      <section id="veille">
+        <p class="section__text__p1">Se tenir à jour</p>
+        <h2 class="title">Veille technologique</h2>
+        <p class="section-intro">
+          <strong>Sujet : les cybermenaces qui visent le retail et le luxe.</strong><br />
+          Pourquoi les enseignes et les maisons de luxe sont-elles devenues des cibles
+          privilégiées, et comment les attaquants y entrent-ils ?
+        </p>
+        <div class="project-grid">
+          <article class="project-card">
+            <p class="project-tag">Avril 2025 · Retail · Royaume-Uni</p>
+            <h3 class="project-title">Marks &amp; Spencer paralysé par un rançongiciel</h3>
+            <p>
+              Attaque attribuée au groupe Scattered Spider avec le rançongiciel DragonForce.
+              Les commandes en ligne ont été suspendues et l'enseigne a estimé l'impact à
+              environ 300 M£ sur son résultat.
+            </p>
+            <p><strong>À retenir :</strong> l'accès initial passe par l'ingénierie sociale
+              (support informatique, prestataire), pas par une faille technique.</p>
+            <ul class="tech-list"><li>Rançongiciel</li><li>Ingénierie sociale</li></ul>
+            <div class="btn-container">
+              <a class="btn btn-color-2 project-btn" href="https://www.theregister.com/2025/05/21/ms_cyberattack_disruption/" target="_blank" rel="noopener">Source</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <p class="project-tag">Été 2025 · Luxe · LVMH, Chanel</p>
+            <h3 class="project-title">Vague de vols de données via Salesforce</h3>
+            <p>
+              Louis Vuitton, Dior puis Chanel ont confirmé des fuites de données clients.
+              Le groupe ShinyHunters appelait des employés (vishing) pour leur faire autoriser
+              une fausse application connectée à leur CRM Salesforce.
+            </p>
+            <p><strong>À retenir :</strong> Salesforce n'a pas été piraté ; ce sont les accès
+              accordés par les utilisateurs qui ont été détournés.</p>
+            <ul class="tech-list"><li>Vishing</li><li>CRM / cloud</li><li>RGPD</li></ul>
+            <div class="btn-container">
+              <a class="btn btn-color-2 project-btn" href="https://www.computing.co.uk/news/2025/security/chanel-confirms-us-data-breach-linked-to-salesforce" target="_blank" rel="noopener">Source</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <p class="project-tag">Septembre 2025 · Luxe · Kering</p>
+            <h3 class="project-title">Gucci, Balenciaga et McQueen : fichiers clients volés</h3>
+            <p>
+              Kering a confirmé un accès non autorisé à des données clients en juin 2025.
+              Les fichiers incluaient le montant dépensé par client, ce qui expose les plus
+              gros acheteurs à des arnaques ciblées.
+            </p>
+            <p><strong>À retenir :</strong> dans le luxe, la donnée client a une valeur
+              d'extorsion bien au-delà de l'email.</p>
+            <ul class="tech-list"><li>Fuite de données</li><li>Extorsion</li></ul>
+            <div class="btn-container">
+              <a class="btn btn-color-2 project-btn" href="https://www.journalduluxe.fr/fr/business/kering-cyberattaque-massive-plusieurs-millions-donnees-clients" target="_blank" rel="noopener">Source</a>
+            </div>
+          </article>
+        </div>
+        <div class="project-grid" style="margin-top:1.5rem">
+          <article class="project-card">
+            <p class="project-tag">Méthode</p>
+            <h3 class="project-title">Mes outils de veille</h3>
+            <p>
+              Flux RSS centralisés dans <strong>Feedly</strong> (presse spécialisée cyber, presse
+              luxe et retail), lus chaque semaine. Je retiens les incidents marquants et j'en
+              tire le mode d'attaque et les bonnes pratiques à appliquer.
+            </p>
+            <ul class="tech-list"><li>Feedly</li><li>Flux RSS</li></ul>
+          </article>
+          <article class="project-card">
+            <p class="project-tag">Ce que j'en retiens</p>
+            <h3 class="project-title">Le maillon faible est humain</h3>
+            <p>
+              Dans les trois cas, les attaquants ont trompé des personnes (support, employés,
+              prestataires) plutôt que de casser un système. Côté développeur, cela veut dire :
+              authentification forte, droits minimaux et journalisation des accès.
+            </p>
+            <ul class="tech-list"><li>MFA</li><li>Moindre privilège</li><li>Journalisation</li></ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- ===== CONTACT ===== -->
+      <section id="contact">
+        <p class="section__text__p1">Une question, un projet ?</p>
+        <h2 class="title">Entrons en contact</h2>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img src="./assets/email.png" alt="" class="icon email-icon" aria-hidden="true" />
+            <p><a href="mailto:najeebghulam@outlook.fr">najeebghulam@outlook.fr</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img src="./assets/linkedin.png" alt="" class="icon" aria-hidden="true" />
+            <p><a href="https://www.linkedin.com/in/najeeb-ghulam/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+      <nav aria-label="Navigation pied de page">
+        <ul class="footer-links">
+          <li><a href="#profil">Accueil</a></li>
+          <li><a href="#about">Profil</a></li>
+          <li><a href="#parcours">Parcours</a></li>
+          <li><a href="#e5">E5</a></li>
+          <li><a href="#e6">E6</a></li>
+          <li><a href="#veille">Veille</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <p>&copy; 2026 Najeeb GHULAM. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
